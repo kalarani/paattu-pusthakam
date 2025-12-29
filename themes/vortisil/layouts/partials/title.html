@@ -1,13 +1,15 @@
+{{ $l10n := partial "l10n.html" . }}
+
 {{- if .IsHome -}}
     {{ site.Title }}
-{{- else if eq .Kind "page" | and (in .CurrentSection.Path "posts") -}}
+{{- else if eq .Kind "page" | and (in .CurrentSection.Path "songs") -}}
     {{ .Title }} @ {{ site.Title }}
-{{- else if .IsSection | and (eq .Section "posts") -}}
-    {{ (index site.Data.l10n "archives") | default "Archives" }} @ {{ site.Title }}
+{{- else if .IsSection | and (eq .Section "songs") -}}
+    {{ (index $l10n "songs") | default "Archives" }} @ {{ site.Title }}
 {{- else if eq .RelPermalink "/about/" -}}
-    {{ (index site.Data.l10n "about") | default "About" }} @ {{ site.Title }}
+    {{ (index $l10n "about") | default "About" }} @ {{ site.Title }}
 {{- else if eq .RelPermalink "/search/" -}}
-    {{ (index site.Data.l10n "search") | default "Search" }} @ {{ site.Title }}
+    {{ (index $l10n "search") | default "Search" }} @ {{ site.Title }}
 {{- else -}}
-    {{ (index site.Data.l10n "pagenotfound_title") | default "404" }} @ {{ site.Title }}
+    {{ (index $l10n "pagenotfound_title") | default "404" }} @ {{ site.Title }}
 {{- end -}}

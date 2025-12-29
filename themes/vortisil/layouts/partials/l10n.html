@@ -1,0 +1,4 @@
+{{/* layouts/partials/l10n.html */}}
+{{ $lang := .Site.Language.Lang }}        {{/* e.g. "en", "fr" */}}
+{{ $l10n  := index site.Data (printf "l10n.%s" $lang) }}
+{{ return $l10n }}

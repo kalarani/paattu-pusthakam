@@ -1,4 +1,6 @@
 {{ define "main" }}
-<h1>{{ index $.Site.Data.l10n "about" }}</h1>
+{{ $l10n := partial "l10n.html" . }}
+
+<h1>{{ index $l10n "about" }}</h1>
 {{ .Content }}
 {{ end }}

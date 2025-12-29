@@ -1,3 +1,4 @@
+{{ $l10n := partial "l10n.html" . }}
 <header>
     <nav class="navbar">
         <div class="navbar-top" id="top">
@@ -21,7 +22,7 @@
         <div class="navbar-menu" id="navbar-menu">
             <div class="navbar-link-list">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}" class="navbar-link-item">{{ index $.Site.Data.l10n .Identifier }}</a>
+                <a href="{{ .URL }}" class="navbar-link-item">{{ index $l10n .Identifier }}</a>
                 {{ end }}
             </div>
             <div class="theme-toggle">

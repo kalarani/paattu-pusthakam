@@ -1,6 +1,10 @@
 let indexData = [];
 
-fetch('/paattu-pusthakam/index.json')
+const primary = document
+  .querySelector('meta[property="og:locale"]')
+  ?.getAttribute('content') || null;
+
+fetch('/paattu-pusthakam/' + primary + '/index.json')
     .then(response => response.json())
     .then(data => {
         indexData = data;
