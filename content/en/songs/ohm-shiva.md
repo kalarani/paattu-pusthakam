@@ -9,9 +9,9 @@ Oṃ Śhiva Oṃ Śhiva Parātpara Śhiva,\
 Oṃkāra Śhiva Tava Śharaṇam. (2)
 
 Namāmi Śhaṅkara Bhajāmi Śhaṅkara,\
-Girijā Śhaṅkara Tava Śharaṇam.
+Uma Maheshwara Tava Śharaṇam.
 
-Gaurī Śhaṅkara Tava Śharaṇaṃ,\
-Bhavānī Śhaṅkara Tava Śharaṇam. (2)
+Gaurī Śhaṅkara Śhambho Śhaṅkara,\
+Shamba Sadashiva Tava Śharaṇam. (2)
 
-Śhambho Śhaṅkara Tava Śharaṇaṃ (2)
+Shamba Sadashiva Tava Śharaṇam. (2)
