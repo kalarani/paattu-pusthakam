@@ -14,6 +14,7 @@
   <span class="article-author">{{ index $l10n "by" }}:&nbsp;{{ or .Params.author .Site.Params.author }}</span>
   <span class="article-author">{{ index $l10n "raagam" }}:&nbsp;{{ .Params.raagam }}</span>
   <span class="article-author">{{ index $l10n "taalam" }}:&nbsp;{{ .Params.taalam }}</span>
+
   {{ $datePostMachine := .Date | time.Format "2006-01-02T15:04:05" }}
   {{ $datePostHuman := .Date | time.Format "2006-01-02" }}
   <!-- <time datetime="{{ $datePostMachine }}">{{ index $.Site.Data.l10n "posted_on" }} {{ $datePostHuman }}</time> -->
@@ -27,6 +28,8 @@
 </div>
 
 {{ .Content }}
+
+{{ partial "tags.html" . }}
 
 {{ with .Params.license }}
 <div class="article-license">

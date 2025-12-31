@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ $raw := .Title }}
+{{ $clean := replace $raw "Gs/" "" }}
+<h1>List for: {{ $clean }}</h1>
+
+<ul>
+  {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>
+{{ end }}
