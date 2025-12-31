@@ -3,14 +3,14 @@ languageCode = 'ta'
 title = 'பாட்டு புஸ்தகம்'
 theme = ['vortisil']
 
+defaultContentLanguage = "ta"
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+
 [taxonomies]
   author = 'author'
   category = 'categories'
   tag = 'tags'
-
-defaultContentLanguage = "ta"
-defaultContentLanguageInSubdir = true
-disableDefaultLanguageRedirect = false
 
 [[languages.ta.menus.main]]
     identifier = "home"
