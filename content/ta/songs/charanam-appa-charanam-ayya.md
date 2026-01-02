@@ -7,6 +7,8 @@ author = ''
 tags = ['4-jan-2026']
 +++
 
+{{< audio "audio/charanam-appa-charanam-ayya.ogg" >}}
+
 (மத்யம ஸ்ருதி)
 
 சரணமப்பா சரணமய்யா ஸ்வாமியே\
