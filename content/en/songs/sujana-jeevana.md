@@ -6,6 +6,8 @@ taalam = 'Roopakam'
 author = 'Thyagarajar'
 +++
 
+{{< youtube id=BseiIblCpoM start=56 >}}
+
 ## PALLAVI
 Sujana Jeevana Rama\
 Sukuna Booshana Rama
@@ -20,9 +22,3 @@ Saaru Nethra Shree Kalathra Shree Ramya Kathara\
 Tharaga Naama Susarithra Dhasharatha Puthra\
 Thara Gathi Paanai Dharma Balaga\
 Tharaya Raghuvara Nirmala Thyagaraja Sannutha
-
-## SWARAM
-S N D M P\
-S R N S -  N D P M\
-N S R S -  N D P M\
-R S N D - S N D P  - N D P M - D N R S - S N N D - D M P 
