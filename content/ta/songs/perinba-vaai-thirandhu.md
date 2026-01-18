@@ -6,6 +6,8 @@ taalam = 'ஆதி'
 author = ''
 +++
 
+{{< audio "audio/perinba-vaai-thirandhu.ogg" >}}
+
 ## பல்லவி
 
 பேரின்ப வாய்திறந்து பேசம்மா - ஞான\
