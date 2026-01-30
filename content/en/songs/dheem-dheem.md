@@ -6,6 +6,8 @@ taalam = 'Adi'
 author = 'Ranjini Pradeep'
 +++
 
+{{< audio "audio/dheem-dheem.ogg" >}}
+
 ## Pallavi
 
 Dheem Dheem Ena Nadanam Aadi Varuvaai Narthana Ganapathiyae\
